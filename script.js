@@ -3,6 +3,10 @@ var time = moment().format('LLLL');
 console.log(time);
 var timeOutput = $("#currentDay").html(time);
 
+
+var time2 = moment().format('HH');
+console.log(time2);
+
 // text index
 var i = 0;
 
@@ -12,15 +16,20 @@ console.log(a);
 
 
 var seconds = (moment().seconds())
-
+console.log(seconds);
 
 // creating button index
-var btnIndex = $(".saveBtn").data("index", i);
-console.log(btnIndex[i]);
+var textAreaIndex = $(".future").data("class", i);
+console.log(textAreaIndex[i]);
 
-// creating textarea index
-var textIndex = $(".inputText").data("id", i);
-console.log(textIndex);
+// // creating textarea index
+// var textIndex = $(".inputText").data("id", i);
+// console.log(textIndex);
+
+ 
+// if ( )
+$("#textArea1" ).removeClass("future");
+$("#textArea1").addClass("present");
 
 
 
