@@ -58,31 +58,50 @@ console.log(a);
         $("#textArea8").addClass("present");
     }
     else {
-        $("#textArea2").addClass("past");
+        // $("#textArea2").addClass("past");
     }
-// }
 
-if ( time2 > 9 || time2 > 10 || time2 > 11 || time2 > 12 || time2 > 13 || time2 > 14 || time2 > 15  || time2 > 16  ){
+
+if ( time2 > 9 ){
+
     $("#textArea1").removeClass("future");
     $("#textArea1").addClass("past");
 
+}
+else if(time2 > 10) {
     $("#textArea2").removeClass("future");
     $("#textArea2").addClass("past");
-
+}
+else if(time2 > 11) {
     $("#textArea3").removeClass("future");
     $("#textArea3").addClass("past");
+}
 
+else if( time2 > 12) {
+    $("#textArea3").removeClass("future");
+    $("#textArea3").addClass("past");
+}
+
+else if( time2 > 13 ) {
     $("#textArea4").removeClass("future");
     $("#textArea4").addClass("past");
+}
 
+else if( time2 > 14 ) {
     $("#textArea5").removeClass("future");
     $("#textArea5").addClass("past");
+}
 
+else if( time2 > 15  ) {
     $("#textArea6").removeClass("future");
     $("#textArea6").addClass("past");
-
+}
+else if( time2 > 16  ) {
     $("#textArea7").removeClass("future");
     $("#textArea7").addClass("past");
+}
+
+ else {
 
 }
 
