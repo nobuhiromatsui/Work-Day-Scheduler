@@ -15,7 +15,7 @@ var a = moment().startOf('day').fromNow();
 console.log(a);
 
 
-// COLOUR CHANGE IF STATEMENT
+// COLOUR CHANGE IF
 
     if ( time2 == 9 ){
         $("#textArea1").removeClass("future");
@@ -110,27 +110,27 @@ function pastElev ()  {
 }
 
 function pastTwe (){
-    $("#textArea3").removeClass("future");
-    $("#textArea3").addClass("past");
-}
-
-function pastThir (){
     $("#textArea4").removeClass("future");
     $("#textArea4").addClass("past");
 }
 
-function pastFourteen ()  {
+function pastThir (){
     $("#textArea5").removeClass("future");
     $("#textArea5").addClass("past");
 }
 
-function pastFifteen () {
+function pastFourteen ()  {
     $("#textArea6").removeClass("future");
     $("#textArea6").addClass("past");
 }
-function pastSixteen () {
+
+function pastFifteen () {
     $("#textArea7").removeClass("future");
     $("#textArea7").addClass("past");
+}
+function pastSixteen () {
+    $("#textArea8").removeClass("future");
+    $("#textArea8").addClass("past");
 }
 
 
