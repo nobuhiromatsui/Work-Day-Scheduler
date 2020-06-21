@@ -15,16 +15,7 @@ var a = moment().startOf('day').fromNow();
 console.log(a);
 
 
-// creating button index
-// var textAreaIndex = $(".future").data("class", i);
-// console.log(textAreaIndex[i]);
- 
-// var hourVal = $(".saveBtn").data("name");
-// console.log(hourVal);
-
-// for (var i = 0; i < 8; i++) {
-//     var timeCheck = $("#input" + i).data("input");
-//     console.log(timeCheck);
+// COLOUR CHANGE IF STATEMENT
 
     if ( time2 == 9 ){
         $("#textArea1").removeClass("future");
@@ -33,76 +24,113 @@ console.log(a);
     else if ( time2 == 10 ){
         $("#textArea2").removeClass("future");
         $("#textArea2").addClass("present");
+        pastNine ();
     }
     else if ( time2 == 11 ){
         $("#textArea3").removeClass("future");
         $("#textArea3").addClass("present");
+        pastNine ();
+        pastTen ();
+
     }
     else if ( time2 == 12 ){
         $("#textArea4").removeClass("future");
         $("#textArea4").addClass("present");
+        pastNine ();
+        pastTen ();
+        pastElev ();
     }
     else if ( time2 == 13 ){
         $("#textArea5").removeClass("future");
         $("#textArea5").addClass("present");
+        pastNine ();
+        pastTen ();
+        pastElev ();
+        pastTwe ();
     }
     else if ( time2 == 14 ){
         $("#textArea6").removeClass("future");
         $("#textArea6").addClass("present");
-    }else if ( time2 == 15 ){
+        pastNine ();
+        pastTen ();
+        pastElev ();
+        pastTwe ();
+        pastThir ();
+    }
+    else if ( time2 == 15 ){
         $("#textArea7").removeClass("future");
         $("#textArea7").addClass("present");
+        pastNine ();
+        pastTen ();
+        pastElev ();
+        pastTwe ();
+        pastThir ();
+        pastFourteen ();
     }
     else if ( time2 == 16 ){
         $("#textArea8").removeClass("future");
         $("#textArea8").addClass("present");
+        pastNine ();
+        pastTen ();
+        pastElev ();
+        pastTwe ();
+        pastThir ();
+        pastFourteen ();
+        pastFifteen ();
+    }
+    else if ( time2 > 17 ){
+        pastNine ();
+        pastTen ();
+        pastElev ();
+        pastTwe ();
+        pastThir ();
+        pastFourteen ();
+        pastFifteen ();
+        pastSixteen ();
     }
     else {
         // $("#textArea2").addClass("past");
     }
 
 
-if ( time2 > 9 ){
-
+// COLOUR CHANGE FUNCTION FOR PAST TIME
+function pastNine (){
     $("#textArea1").removeClass("future");
     $("#textArea1").addClass("past");
-
 }
-else if(time2 > 10) {
+
+function pastTen () {
     $("#textArea2").removeClass("future");
     $("#textArea2").addClass("past");
 }
-else if(time2 > 11) {
+
+function pastElev ()  {
     $("#textArea3").removeClass("future");
     $("#textArea3").addClass("past");
 }
 
-else if( time2 > 12) {
+function pastTwe (){
     $("#textArea3").removeClass("future");
     $("#textArea3").addClass("past");
 }
 
-else if( time2 > 13 ) {
+function pastThir (){
     $("#textArea4").removeClass("future");
     $("#textArea4").addClass("past");
 }
 
-else if( time2 > 14 ) {
+function pastFourteen ()  {
     $("#textArea5").removeClass("future");
     $("#textArea5").addClass("past");
 }
 
-else if( time2 > 15  ) {
+function pastFifteen () {
     $("#textArea6").removeClass("future");
     $("#textArea6").addClass("past");
 }
-else if( time2 > 16  ) {
+function pastSixteen () {
     $("#textArea7").removeClass("future");
     $("#textArea7").addClass("past");
-}
-
- else {
-
 }
 
 
