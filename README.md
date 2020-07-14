@@ -6,7 +6,8 @@ This application is a daily task note.
 
 
 <h3>How to use</h3>
-To create daily schedule, type your to-do-list by the hour.
+To create a daily schedule, type your to-do-list by the hour.
+You can save your to-do-list by clicking the blue save button.
 
 Future time is displayed in green, present is displayed in red and past will be displayed in grey.
 The to-do-list will be stored in the local storage, so you can keep the to-do-lists and refresh the page if required.
