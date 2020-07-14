@@ -2,24 +2,22 @@
 
 live site: https://nobuhiromatsui.github.io/Work-Day-Scheduler/
 
+This application is a daily ask note.
 
-
-
-This applicartion allows you to display weather you would like to see.
 
 <h3>how to use</h3>
-Type a city in the search bar and press the "click" button.
+You can type to-do-list by hour.
 
-The city weather of the day and next 5 days weather forecast will display. 
+Future time is displayed in green, present is displayed in red and past will be displayed in gray.
+The to-do-list will stored in the local strage, so you can keep the to-do-list even refresh the page.
 
-Searched Cities are displayed on the left column.
-When the seached city is clicked, the weather infomation of the city displays again.
 
 <h2>Technical details</h2>
 <ul>
 <li>jQuery</li>
-<li>HtML</li>
+<li>HTML</li>
 <li>CSS</li>
 </ul>
   
- <img src="https://github.com/nobuhiromatsui/Work-Day-Scheduler/img/dayschedule.png" alt="daySchedule">
+<img src="https://github.com/nobuhiromatsui/Work-Day-Scheduler/blob/master/img/dayschedule.png" alt="daySchedule">
+
