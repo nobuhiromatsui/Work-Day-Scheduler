@@ -2,14 +2,14 @@
 
 live site: https://nobuhiromatsui.github.io/Work-Day-Scheduler/
 
-This application is a daily ask note.
+This application is a daily task note.
 
 
-<h3>how to use</h3>
-You can type to-do-list by hour.
+<h3>How to use</h3>
+To create daily schedule, type your to-do-list by the hour.
 
-Future time is displayed in green, present is displayed in red and past will be displayed in gray.
-The to-do-list will stored in the local strage, so you can keep the to-do-list even refresh the page.
+Future time is displayed in green, present is displayed in red and past will be displayed in grey.
+The to-do-list will be stored in the local storage, so you can keep the to-do-lists and refresh the page if required.
 
 
 <h2>Technical details</h2>
